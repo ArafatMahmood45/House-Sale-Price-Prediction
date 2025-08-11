@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
 from joblib import load
+import osS
 
 # ===============================
 # Load trained model & data
 # ===============================
-model = load("C:/Users/HP/Desktop/House_Price_Prediction/XGBMODEL_pipeline.joblib")
+model_path = os.path.join(os.path.dirname(__file__), "XGBMODEL_pipeline.joblib")
+model = load(model_path)
 train_data = pd.read_csv("train_data.csv")  # Preprocessed data (same columns as model)
 
 # ===============================

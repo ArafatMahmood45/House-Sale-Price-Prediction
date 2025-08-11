@@ -18,7 +18,7 @@ Predict residential house sale prices using machine learning models trained on t
 
 ## 🌐 Live App
 
-👉 [House Price Prediction Streamlit App](https://your-deployment-url-here)  
+👉 [House Price Prediction Streamlit App](https://huggingface.co/spaces/arafatMahmood/House_Price_Prediction)  
 
 ---
 
