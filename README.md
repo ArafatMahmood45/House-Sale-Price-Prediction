@@ -44,7 +44,7 @@ Accurately estimating house sale prices is critical for buyers, sellers, and rea
 - **Data Processing**: `pandas`, `numpy`  
 - **Exploratory Data Analysis**: `matplotlib`, `seaborn`  
 - **Machine Learning**: `xgboost`, `scikit-learn` (Random Forest baseline), `joblib` for serialization  
-- **Web App Framework**: Streamlit  
+- **Web App Framework**: Streamlit and HuggingFace
 - **Version Control**: Git & GitHub  
 
 ---
